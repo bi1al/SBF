@@ -1,0 +1,20 @@
+ <li class="nav-item">
+         
+        <button class="navbar-btn" onclick="document.getElementById('id01').style.display='block'">LOGIN AS ADMIN</button>
+         
+        <div id="id01" class="modal">
+                <form class="modal-content animate " action="/action_page.php">
+                  <div class="container">
+                    <p style="color:#CCCCCC;font-size: 2vw" class="text-center">ONLY ADMIN CAN LOGIN</p>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text"   placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password"    placeholder="Enter Password" name="psw" required>
+                    <button class ="logbtn"type="submit">Login</button>
+                  </div>
+                   
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </form>
+              </div>
+       
+            </li>

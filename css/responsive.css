@@ -1,0 +1,60 @@
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 600px) {
+span.psw {
+	display: block;
+	float: none;
+}
+.cancelbtn {
+	width: 100%;
+}
+.modal-content {
+	width: 100%;
+	margin: 0;
+}
+.bg-7 p, h5 {
+	color: #CCCCCC;
+}
+.testh1 {
+	font-size: 20px;
+}
+.testimg {
+	height: 80px;
+}
+.caoursol {
+	height: 500px;
+}
+
+main h1{
+    font-size:34px;
+    margin:200px 0 0 0 ; 
+}
+main p{
+    font-size:18px;
+}
+.about h1{
+    font-size:34px;
+}
+.contact-bg h1{
+    font-size: 34px;
+}
+.navbar-btn{
+    font-size: 14px;
+    margin:0 ;
+}
+  }
+
+
+@media only screen and (min-width: 768px) {
+    .navbar-btn{
+        font-size: 14px;
+        margin:0 ;
+    }
+    main h1{
+      
+        margin:300px 0 0 0 ; 
+        
+    }
+} 
+
+ 

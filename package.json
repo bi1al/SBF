@@ -1,0 +1,14 @@
+{
+  "name": "finally",
+  "version": "1.0.0",
+  "description": "protfoloi project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bilal amin khan",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.3"
+  }
+}
