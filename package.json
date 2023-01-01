@@ -9,6 +9,6 @@
   "author": "Bilal amin khan",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.39.3"
+    "webpack": "^5.75.0"
   }
 }
